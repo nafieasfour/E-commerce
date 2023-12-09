@@ -2,6 +2,11 @@
 margin: 0;
 padding: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
 .firstnav {
     display: flex;
     justify-content: space-between; 
@@ -9,11 +14,16 @@ padding: 0;
     background-color: #f0f0f0;
     padding: 30px; 
     margin: 30px;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    border: solid;
+    border-radius: 15px;
+    height: 0px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #d30e0e; /* Set the color of the links */
+    text-decoration: solid;
+    color: #d3350e; /* Set the color of the links */
     margin: 0; /* Adjust the horizontal spacing between links */
     
 }
@@ -26,15 +36,18 @@ nav a {
     background-color: #f0f0f0; 
     padding: 30px; 
     margin: 30px;
-
-}
+    height: 10px;
+    border-radius: 15px;
+    border: solid;
+      }
 
 .dropbtn {
     background-color: #04AA6D;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 15px;
     border: none;
+    border-radius: 15px;
   }
   
   .dropdown {
@@ -103,4 +116,11 @@ nav a {
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+}
+.promoimg{
+  padding: 30px;
+  width: 1400px;
+  height: 400px;
+  position: fixed;
+
 }
